@@ -25,6 +25,7 @@ sudo apt-get install /protonvpn-stable-release_1.0.1-1_all.deb
 ##Install packages
 sudo apt update
 sudo apt install muon mpv neofetch kdenlive codium slimbookbattery brave-browser linux-image-liquorix-amd64 linux-headers-liquorix-amd64 obs-studio gnome-boxes protonvpn
+sudo apt autoremove
 ## Add custom cursor theme
 git clone https://github.com/SenAarush/cursor
 sudo mv macOSMonterey /usr/share/icons 
