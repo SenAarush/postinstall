@@ -20,10 +20,8 @@ sudo add-apt-repository ppa:kdenlive/kdenlive-stable -y
 git clone https://github.com/pystardust/ani-cli && cd ani-cli
 sudo cp ani-cli /usr/local/bin/ani-cli
 ##Add protonmail repo
-curl -o https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.deb
-sudo apt-get install /protonvpn-stable-release_1.0.1-1_all.deb
 ##Install packages
-sudo apt update
+sudo pkcon refresh
 sudo apt install muon mpv neofetch kdenlive codium slimbookbattery brave-browser linux-image-liquorix-amd64 linux-headers-liquorix-amd64 obs-studio gnome-boxes -y
 sudo apt autoremove
 ## Add custom cursor theme
