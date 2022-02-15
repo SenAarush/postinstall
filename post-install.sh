@@ -27,10 +27,11 @@ sudo wget https://protonvpn.com/download/protonvpn-stable-release_1.0.1-1_all.de
 sudo dpkg -i protonvpn-stable-release_1.0.1-1_all.deb
 ##Install packages
 sudo pkcon refresh
-sudo apt install muon mpv neofetch kdenlive codium slimbookbattery brave-browser linux-image-liquorix-amd64 linux-headers-liquorix-amd64 obs-studio gnome-boxes librewolf protonvpn -y
+sudo apt install muon mpv neofetch kdenlive codium slimbookbattery brave-browser linux-image-liquorix-amd64 linux-headers-liquorix-amd64 gnome-boxes librewolf protonvpn -y
 sudo apt autoremove
 ##Add flatpak apps
 flatpak install flathub org.onlyoffice.desktopeditors
+flatpak install flathub com.obsproject.Studio
 ##Add custom cursor theme
 git clone https://github.com/SenAarush/cursor
 sudo mv cursor /usr/share/icons 
